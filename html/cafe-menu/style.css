@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");;
+    padding: 20px;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80vw;
+    max-width: 500px;
+    background: burlywood;
+}
+
+hr {
+    height: 3px;
+    background-color: blueviolet;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header, section, .list, footer, hr {
+    margin-top: 20px;
+    width: 70vw;
+    max-width: 400px;
+}
+
+.item {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer {
+    font-size: 0.8rem;
+    gap: 8px;
+}
